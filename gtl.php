@@ -1,6 +1,5 @@
 <?php
-	//Sur l'idee de Arthur Durand, voici un tout petit bout de code pour envoyer dans le dossier du dernier dernier projet modifier.
-	define("DEBUG", false);
+	define("DEBUG", true);
 
 	// Liste des dossier a exclure
 	$exclude[] = '.';
@@ -62,6 +61,9 @@
 		echo $constructionLien;
 		echo '<br /><br />';
 		echo '<a href="./' . $constructionLien . '">ICI</a>';
+		echo '<br /><br />';
+	echo 'Passer "define(\'DEBUG\', true);" à false pour être redirigé automatiquement.';
+
 	} else {
 		header('Location: '.$constructionLien);
 	}
