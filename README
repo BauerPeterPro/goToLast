@@ -1,5 +1,5 @@
+Sur une idée d'arthur, ce script vous envoi autoamtiquement dans le 1er niverau du repertoire dans le quel le dernier fichier à été editer.
+
 A placer dans /var/www/html/
 
 Ensuite vous crée un favoris vers votreNomDeDomaine/gtl.php
-
-Ca vous envoi autoamtiquement dans le 1er niverau du repertoire dans le quel le dernier fichier à été editer.
